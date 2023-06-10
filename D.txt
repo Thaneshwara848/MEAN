@@ -4,62 +4,26 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Thaneshwara848/SL_MeanStack.git
 git push -u origin main
-
-
-
-
   git config --global user.email "thaneshwaramanjunatha@gmail.com"
   git config --global user.name "Thaneshwara"
 
 
-1/2:
-	5 days
+===============================
+HTML
+                   Break (<br></br>)
+                   Paragraph (<p></p> Paragraph tag gives one more line)
+                   HR (<hr> horizontal tag gives one line)
 
-	revise 2 times 
-	more effort to leanr 
-	resrch
-	200% 
- 
-	
-	vedio 
-		rec :REC
-		lernt : learn : name :11 
-
-		practicced 
-3 :
-	
-
-		50% 
-	
-		70%
-
-		80% 
-
-
- mother lang :
-		kannda
-		telgu
-		marati
-		any lang :
-
-			befor the exam also 
-				35 :
-				jus to pass 
-
-	 
-
-prog :
-		
-
-		
-
-
-
-
-
-
-		90 % 
-
-
-
-
+                   Closing Tags - H1-H6, Span, div, P 
+                   Non Closing Tags - HR, BR, IMG
+                   Ordered & Un-Ordered List 
+                    Table - Table. th, td , cellspacing, rowspan, colspan
+                    images :
+                    Links: 
+                    input forms 
+                    audio / vedio
+                    map : googlr map 
+                    text formating 
+                    colors
+                    local sotrgae / Session sotrgae
+                  
