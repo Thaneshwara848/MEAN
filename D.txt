@@ -27,3 +27,23 @@ HTML
                     colors
                     local sotrgae / Session sotrgae
                   
+HTML :
+      Hyper text markup lang
+      just only the page : no style 
+
+CSS :
+    style 
+    Cascading style sheet
+    1) it describe how html elememts are to be displayed on screen , 
+      Look and feel 
+    2) css saves a lot of work it can controle the multple page 
+    
+    Selectors : 
+      id 
+      class 
+      tag 
+      multyple  tag 
+      Universal 
+
+
+      
