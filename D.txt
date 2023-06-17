@@ -1,9 +1,21 @@
+
+
+
+
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Thaneshwara848/SL_MeanStack.git
 git push -u origin main
+
+git init
+git add README.md
+git commit -m "first commit"
+git push 
+
+
+
   git config --global user.email "thaneshwaramanjunatha@gmail.com"
   git config --global user.name "Thaneshwara"
 
@@ -38,12 +50,93 @@ CSS :
       Look and feel 
     2) css saves a lot of work it can controle the multple page 
     
-    Selectors : 
-      id 
-      class 
-      tag 
-      multyple  tag 
+
+	Types of Css:
+			Inline 
+			internal / Embaded 
+			External style sheet
+
+    	Selectors : 
+    	  id 
+    	  class 
+     	 tag 
+      	multyple  tag 
       Universal 
+
+	Background propertys 
+		bg-Image 
+		bg-repet
+		bg-attachment 
+	margin 
+		top 
+		left 
+		right 
+		bottom 
+	Padding 
+		padding top 
+			left
+			right 
+			bottom 
+	float 
+	opacity 
+	text 
+	font 
+	Box model 
+	overflow
+	
+	Animation 
+	
+
+BootStracp 
+
+CSS 
+	line by line we have to write 
+===================
+
+BootStracp 
+	we have so many ready made class 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       
