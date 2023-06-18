@@ -2,6 +2,8 @@
 
 
 
+
+
 git init
 git add README.md
 git commit -m "first commit"
@@ -96,6 +98,23 @@ CSS
 BootStracp 
 	we have so many ready made class 
 
+
+	Gird 
+	button
+	text 
+	bg 
+	table 
+	pagination 
+	progress bar 
+	glyphicon
+	Forms 
+	collapas
+	corosual 
+
+	nav bar 
+
+	tooltip 
+	model 
 
 
 
