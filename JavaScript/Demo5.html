@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script>
+       function  abc(){
+           val = document.getElementById('btn1').value;
+           document.getElementById('display').value=val;
+        }
+    </script>
+    <style>
+        *{
+            margin: auto;
+        }
+        .container{
+            text-align: center;
+        }
+        input{
+            font-size: 30px;
+            border: 2px solid blue;
+            width: 240px;
+        }
+        button{
+            width: 60px;
+            height: 50px;
+            background-color: gray;
+        }
+        .calculator{
+            background-color: blue;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    </style>
+    <script>
+        let display=document.getElementById(display);
+        let displayValue='';
+        buttons=document.querySelectorAll('button')
+        for(item of buttons){
+            item.addEventListener('click',(e)=>{buttonText=e.target.innerText;console.log(buttontext)
+            if(buttonText=='X'){
+                buttonText="*";
+                displayValue+=buttonText;
+                display.value=displayValue;
+            }
+        else if(buttonText=='C'){
+            displayValue='';
+            display.value=displayValue;
+        }
+    else if(buttonText=='='){
+        display.value=eval(displayValue)
+    }
+else{
+    displayValue+=buttonText;
+    display.value=displayValue;
+}
+})
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+        <div class="calculator">
+        <input type="text" name="display" id="display">
+        <table>
+            <tr>
+                <td><button>(</button></td>
+                <td><button>)</button></td>
+                <td><button>%</button></td>
+                <td><button>C</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>/</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>X</button></td>
+            </tr>
+            <tr>
+                <td><button  onclick="abc()" id="btn1" value="1">1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="abc()" id="btn0" value="0">0</button></td>
+                <td><button>.</button></td>
+                <td><button>=</button></td>
+                <td><button>+</button></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>

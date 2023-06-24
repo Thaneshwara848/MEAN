@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal(value){
+            a=  parseInt( document.f1.a.value);
+           b=  parseInt(document.f1.b.value);
+            if(value=="ADD"){
+                sum = a+ b;
+                 document.f1.result.value=sum;
+            }
+            else if(value=="SUB"){
+                sum = a - b;
+                 document.f1.result.value=sum;
+            }
+            else if(value=="MUL"){
+                sum = a * b;
+                 document.f1.result.value=sum;
+            }
+            else if(value=="DIV"){
+                sum = a / b;
+                 document.f1.result.value=sum;
+            } 
+        }
+    </script> practice the program , 
+</head>
+<body bgcolor="yellow">
+    <div style="text-align: center;">
+        <h1> Hi Caculator </h1>
+        <form name="f1">
+            A value : <input type="text" name="a"><br>
+            B value :<input type="text" name="b"><br>
+           Result :<input type="text" name="result"><br>
+            <br>
+            <input type="button" value="ADD" onclick="cal(value)">
+            <input type="button" value="SUB" onclick="cal(value)">
+            <input type="button" value="MUL" onclick="cal(value)">
+            <input type="button" value="DIV" onclick="cal(value)"> 
+        </form>
+    </div>
+</body>
+</html>

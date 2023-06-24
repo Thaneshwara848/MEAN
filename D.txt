@@ -1,6 +1,18 @@
 
 
 
+Quickly revise all the topics 
+	HTML 
+	CSS 
+	Bootstarcp 
+	basic javaScript 
+		
+Bootstrap 5 cdn links are included the glyphicons,paginations and other stuffs doesnt come or even when it comes it is differently form bootstrap 3 which sir had included
+
+
+javaScript 
+
+Bootsrcp 5: glyphicons 
 
 
 

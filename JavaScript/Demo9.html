@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            alert("single click")
+        }
+        function xyz(){
+            alert("Double Click")
+        }
+        function getFullname(){
+            fn=document.f1.fn.value;ln=document.f1.ln.value;
+            fullname=fn+" "+ln;
+            document.f1.full.value=fullname;
+        }
+        function aaa(){
+            document.getElementById('fn').style.backgroundColor="lightblue";
+        }
+        function bbb(){
+            document.getElementById('fn').style.backgroundColor="red"
+        }
+        function bgclr(value){
+            document.getElementById('mypage').style.backgroundColor=value;
+        }
+    </script>
+</head>
+<body id="mypage">
+    <div  style="text-align: center;">
+      <marquee onmouseover="stop()" onmouseout="start()">  <h1>HI Event or Action Demo </h1> </marquee>
+        <form name="f1">
+           FIRST NAME  : <input type="text" name="fn" id="fn" onfocus="aaa()" onblur="bbb()"><br>
+            LAST NAME  :<input type="text" name="ln"><br>
+           FULL NAME  :<input type="text" name="full" onfocus="getFullname()"><br><br>
+           <input type="button" value="GET FULL Name" onclick="getFullname()"><hr>
+            <button type="button" onclick="abc()">CLICK</button>
+             <button type="button" ondblclick="xyz()">Double CLICK</button>
+             <select onchange="bgclr(value)">
+                <option  >CHOOSE</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="pink">pink</option>
+                <option value="yellow">yellow</option>
+             </select>
+        </form>
+    </div>              
+</body>
+</html>
+
+        <!-- onclick
+        ondblclick 
+        onmouseout
+        onmouseout
+        onfocus
+        onblure
+        onchang
+        ondrag
+        onsbmit -->
+
+
+
+
+
+

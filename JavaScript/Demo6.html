@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+           a=  parseInt( document.f1.a.value);
+           b=  parseInt(document.f1.b.value);
+           sum = a+ b;
+            document.f1.result.value=sum;
+        }
+        function sub(){
+           a=  parseInt( document.f1.a.value);
+           b=  parseInt(document.f1.b.value);
+           sum = a-  b;
+            document.f1.result.value=sum;
+        }
+        function mul(){
+           a=  parseInt( document.f1.a.value);
+           b=  parseInt(document.f1.b.value);
+           sum = a *  b;
+            document.f1.result.value=sum;
+        }
+        function div(){
+           a=  parseInt( document.f1.a.value);
+           b=  parseInt(document.f1.b.value);
+           sum = a / b;
+            document.f1.result.value=sum;
+        }
+    </script>
+</head>
+<body bgcolor="yellow">
+    <div style="text-align: center;">
+        <h1> Hi Caculator </h1>
+        
+        <form name="f1">
+
+            A value : <input type="text" name="a"><br>
+            B value :<input type="text" name="b"><br>
+            
+           Result :<input type="text" name="result"><br>
+
+            <br>
+            <input type="button" value="ADD" onclick="add()">
+            <input type="button" value="SUB" onclick="sub()">
+            <input type="button" value="MUL" onclick="mul()">
+            <input type="button" value="DIV" onclick="div()"> 
+    </form>
+
+
+
+
+    </div>
+</body>
+</html>
