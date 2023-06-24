@@ -109,8 +109,6 @@ CSS
 
 BootStracp 
 	we have so many ready made class 
-
-
 	Gird 
 	button
 	text 
@@ -122,13 +120,96 @@ BootStracp
 	Forms 
 	collapas
 	corosual 
-
 	nav bar 
-
 	tooltip 
 	model 
 
 				Java Script
+
+			java 								javaScript 
+
+programing 										Scripting lang 
+
+compile
+	+
+		 run 									RUN 
+
+Slow 											fast
+
+Server side 									Cleint + server : so more popualr 
+
+
+
+
+javaScript :e 
+		AngualrJS 
+		React JS 
+		nodeJS
+		ExprerssJS
+		Veniall JS 
+		VewJS
+		BackboonJS 
+		Etc...!
+
+basics
+
+	why 
+	functions 
+	events 
+	logics 
+	validation 
+
+	Data Types 
+		string 
+		number 
+
+	Operatoos : 
+			aretmentic
+			logical 
+			assignment operators 
+			condatinal operators 
+			etc...? 
+	statemts :if , else , swithc 
+		loop : for , whle , do while 
+		jumping : break , continu , 
+
+
+
+Advanced javaScript :
+	class 
+	object 
+	oops 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				
 
 

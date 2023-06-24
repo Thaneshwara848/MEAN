@@ -3,8 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function valid(){
+           name=document.getElementById('uname').value;
+        //    alert("My name is :"+name)
+        if(name.length==0 || name.length==null|| name.length==undefined){
+           // alert("Name must be requried ");
+          // document.getElementById('msg').innerText="Name must be requried"
+           document.getElementById('msg').innerHTML="<i style='color:red'>Name must be requried</i>"
+        }
+        else if(name.length>=0 && name.length<=3){
+            // alert("Name must be more the 3 char ");
+            document.getElementById('msg').innerText="Name must be more the 3 char";
+            document.getElementById('msg').innerHTML="<i style='color:red'>Name must be more the 3 char</i>"
+        }
+        else if(name.length>=10){
+            document.getElementById('msg').innerText="Name must be 3-10 char";
+             document.getElementById('msg').innerHTML="<i style='color:red'>Name must be 3-10 char</i>"
+            // alert("Name must be 3-10 char ");
+        }
+        else{
+            // alert("Names okay");
+            // document.getElementById('msg').innerText="Name okay";
+            document.getElementById('msg').innerHTML="<i style='color:green'>Name is OKAY </i>" 
+        }
+    }
+    </script>
 </head>
 <body>
-    
+    <div style="text-align: center;">
+        <h1> Validation Demo </h1>
+        USER NAME : <br>
+        <input type="text" id="uname"><br>
+        <span id="msg"></span><br>
+        <input type="button" value="CLICK" onclick="valid()">
+    </div>
 </body>
 </html>
