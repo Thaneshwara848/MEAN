@@ -202,11 +202,30 @@ BoM: browser Object Model :
 Advanced javaScript :
 	class 
 	object 
-	oops 
 
 
+premitive dasta type 
+	String methods
+		uppercase 
+		lowercase
+		trim
+		length
+		slice
+		replace 
+		replaceAll
+
+number methods 
+
+	parseInt
+	parseFlote
 
 
+Array and its methods 
+	sort 
+	reverse
+	pop 
+	push 
+	
 
 
 

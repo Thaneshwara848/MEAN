@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        const  fruits=["Apple","Jackfruit","Greps","Banana","Orange"];
+        for(var i=0;i<fruits.length;i++)
+        {
+            document.write(fruits[i]+"<br>")
+        }
+
+        document.write("<br>======= SORT ===============<br>");
+       
+        fruits.sort();
+        for(var i=0;i<fruits.length;i++)
+        {
+            document.write(fruits[i]+"<br>")
+        }
+       
+        document.write("<br>========POP ==============<br>");
+        fruits.pop();
+        for(var i=0;i<fruits.length;i++)
+        {
+            document.write(fruits[i]+"<br>")
+        } 
+        document.write("<br>========PUSH ==============<br>");
+        fruits.push("PINEAPPLE");
+        for(var i=0;i<fruits.length;i++)
+        {
+            document.write(fruits[i]+"<br>")
+        }
+        document.write("<br>========REVERSE==============<br>");
+        fruits.reverse();
+        for(var i=0;i<fruits.length;i++)
+        {
+            document.write(fruits[i]+"<br>")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
