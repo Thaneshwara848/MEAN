@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    
+</head>
+<body>
+    <p id="e"></p>
+ <script>
+    function emp(fn,ln,age,salary){
+        this.fn=fn;
+        this.ln=ln;
+       this.age= age;
+       this.salary= salary;
+    }
+    // emp("suresh","kuamr",35,50000);
+   const myemps=new emp("suresh","kuamr",35,50000);
+
+   emp.prototype.desig="Developer";
+
+   document.getElementById('e').innerHTML="My Name is "+myemps.fn +" Age is "+myemps.age+" Designation is"+myemps.desig
+
+ </script>
+
+<!-- prototype : it is used to add some extra parameter to the funtions  -->
+
+</body>
+</html>

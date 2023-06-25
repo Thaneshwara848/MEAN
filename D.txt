@@ -6,8 +6,6 @@ Quickly revise all the topics
 	CSS 
 	Bootstarcp 
 	basic javaScript 
-		
-Bootstrap 5 cdn links are included the glyphicons,paginations and other stuffs doesnt come or even when it comes it is differently form bootstrap 3 which sir had included
 
 
 javaScript 
@@ -151,13 +149,21 @@ javaScript :e
 		BackboonJS 
 		Etc...!
 
-basics
+JAVA SCRIPTS 
 
-	why 
 	functions 
+		funtions wityh parameters 
 	events 
+		onlick ,ondbl ,onmoseover , onmouseout, onload , onchange, on select 
+		onsubmit, onfocus , onblue, 
+
 	logics 
-	validation 
+	validation
+		onsubmits 
+		name==null, undefined , o 
+		<3
+		>10 
+		patterns  
 
 	Data Types 
 		string 
@@ -172,18 +178,31 @@ basics
 	statemts :if , else , swithc 
 		loop : for , whle , do while 
 		jumping : break , continu , 
+	
+	protoType 
+	CallBack funtions 
+ 
 
+DOM : Document object model 
+	id : getElementsByID();
+	name:getElementByName
+	class: getEleenmtByClassName
+	tag: getEleementByTagName()
+	InnerHtml
+	innterText
+
+
+BoM: browser Object Model :
+	window functions :
+		alert
+		confim 
+		prompt
 
 
 Advanced javaScript :
 	class 
 	object 
 	oops 
-	
-
-
-
-
 
 
 

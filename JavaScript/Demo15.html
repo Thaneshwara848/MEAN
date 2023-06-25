@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function logical(){
+            n1=document.getElementById('num').value;
+            if(n1%2==0){
+document.getElementById('result').innerHTML="<p style='color:red'>NUMBER IS EVEN</p>";
+            }
+            else{
+
+document.getElementById('result').innerHTML="<p style='color:red' >NUMBER IS ODD</p>";
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;">
+        ENTER NUMBER :
+        <input type="text" id="num">
+        <input type="button" onclick="logical()" value="CLICK">
+
+        <p id="result"></p>
+    </div>
+</body>
+</html>

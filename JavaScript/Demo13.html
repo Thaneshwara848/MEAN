@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="a"></p>
+    <script>
+
+        function display(sum){
+            // console.log("Hello Disply "+sum)
+            document.getElementById('a').innerHTML="SUM is :"+sum;
+        }
+
+        function cal(n1,n2,display){
+            sum=n1+n2;
+             console.log(sum)
+             display(sum);// callback function
+        }
+        cal(100,200,display);
+        
+    </script>
+    
+</body>
+</html>
