@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function abc(){
+            var name=document.getElementById("uname").value;
+            var upass=document.getElementById("upass").value;
+           localStorage.setItem("myname",name);
+           localStorage.setItem("mypass",upass);
+        }
+
+        function display(){
+
+           name = localStorage.getItem("myname");
+           pass = localStorage.getItem("mypass");
+
+           console.log("My Name is :"+name);
+           console.log("My Password is :"+pass)
+
+           document.getElementById('username').innerText=name;
+           document.getElementById('userpass').innerHTML=pass;
+        }
+        function login(){
+            un=document.getElementById('loguser').value;
+            pass= document.getElementById('userpass').value;
+
+            
+           name = localStorage.getItem("myname");
+           pass = localStorage.getItem("mypass");
+
+           if(){
+            // login and home page 
+           }
+           else{
+            // invalid user 
+           }
+        }
+
+    </script>
+</head>
+<body>
+    Name :<input type="text" id="uname"><br>
+    Pass :<input type="text" id="upass"><br>
+    <input type="submit" onclick="abc()" value="STORE">
+
+    <input type="button" value="DISPLAY" onclick="display()">
+    <hr>
+    <span id="username"></span><br>
+    <span id="userpass"></span>
+    
+    <hr>
+    USER NAME :<input type="text" id="loguser"><br>
+    user pass :<input type="text" id="userpass"><br>
+
+    <input type="submit" value="LOGIN" onclick="login()">
+
+
+</body>
+</html>
